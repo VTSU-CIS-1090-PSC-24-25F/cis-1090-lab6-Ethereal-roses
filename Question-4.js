@@ -1,7 +1,10 @@
-
+let x = 0;
 function countToTen(){
     //Use a while loop to count to ten, using console.log to print what number you are on
-    // (YOUR CODE HERE)
+    while(x<10){
+        x++;
+        console.log(x);
+    }
 }
 
 countToTen();
